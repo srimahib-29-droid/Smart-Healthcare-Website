@@ -1,0 +1,92 @@
+/* General */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f8fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#0077b6;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:#caf0f8;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:#0077b6;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#023e8a;
+}
+
+/* Content */
+.content{
+    width:90%;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.content h2{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:25px;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Forms */
+form{
+    background:white;
+    padding:25px;
