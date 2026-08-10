@@ -1,0 +1,168 @@
+/* General */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f8fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#0077b6;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:#caf0f8;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:#0077b6;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#023e8a;
+}
+
+/* Content */
+.content{
+    width:90%;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.content h2{
+    text-align:center;
+    color:#0077b6;
+    margin-bottom:25px;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Forms */
+form{
+    background:white;
+    padding:25px;
+}
+.about-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 30px;
+    margin: 35px 0 20px;
+}
+
+.about-section p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.about-main-image img {
+    width: 70%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 25px auto;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.about-images div {
+    width: 32%;
+    background: white;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.about-images img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.about-images h3 {
+    font-size: 21px;
+    margin: 15px 5px 5px;
+}
+
+.about-images p {
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .about-images {
+        flex-direction: column;
+    }
+
+    .about-images div {
+        width: 100%;
+    }
+
+    .about-main-image img {
+        width: 100%;
+    }
+}
